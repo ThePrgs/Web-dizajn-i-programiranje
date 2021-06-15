@@ -1,0 +1,336 @@
+
+
+
+body {
+    color: black;
+    font-family: "Arial";
+    margin: auto;
+   
+    background-size: 100%;
+
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background: brown;
+    font-weight: bold;
+    color: black;
+}
+
+h1, footer {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: dimgray;
+    clear:both;
+}
+
+
+li {
+    color: black;
+
+
+}
+
+nav {
+
+    width: 100%; 
+    background-color: white; 
+}
+
+nav > ul {
+    list-style:none;
+    width:100%;
+    margin: 0;
+    padding:0;
+    line-height: 1;
+
+
+}
+
+nav > ul li {
+    display:inline;
+    list-style-type:none;
+    position: relative;
+
+}
+
+nav > ul li a {
+    display: block;
+    border-style:dotted;
+    border-width:1px;
+    border-color:black;
+    color:blue;
+    text-transform:uppercase;
+    padding: 30px 118px;
+    float: right;
+    background-color: burlywood;
+    margin: 0 auto;
+
+
+}
+
+form {
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+
+    width:100%;
+}
+
+
+
+
+p {
+    color: black;
+    text-align: center;
+}
+
+
+p[id="legenda"]{
+    color: #777;
+    font-size: 20px;
+}
+
+
+
+.tekst{
+    font-style: italic;
+}
+
+
+#sadrzaj{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    float:left;
+    width:100%;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1900px){
+    body{
+        background-color: white;
+        font-family: "Calibri";
+
+
+    }
+    table{
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 1920px){
+    header{
+        text-align: left;
+        padding: 20px;
+        background-color: darkolivegreen;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    body{
+        font-family: "Helvetica";
+        background-color: blanchedalmond;
+    }
+
+    footer{
+        text-align: center;
+        padding: 50px;
+        background-color: olive;
+        clear:both;
+    }
+
+
+
+
+}
+
+.tablica{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+
+}
+
+table, th, td{
+    border:2px solid black;
+    color:black;
+}
+
+
+
+
+figure {
+    width: 25%;
+    float: left;
+    margin:0;
+    text-align: center;
+    padding: 40px;
+}
+
+figure img{
+    border: 5px solid black;
+}
+
+#form1,#prijava{
+    margin: 0 auto;
+    width: 800px;
+}
+
+#pocetakPrijave, #pocetakObrasca{
+    margin: 0 auto;
+    width: 800px;
+    color: black;
+    padding-top:50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+h2{
+    text-align: center;
+    color: black;
+}  
+
+#prazniProstor{
+    width: 500px;
+    height: 80px;
+}
+
+#prazniProstor2{
+    width: 500px;
+    height: 950px;
+}
+
+#pocetakZahtjeva{
+   
+    width: 1500px;
+    color: black;
+    padding-top:5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#pocetakPrijedloga{
+    margin: 0 auto;
+    width: 800px;
+    color: black;
+    padding-top:5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#oarh, #ogradj{
+    border-radius: 5px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+
+    width:70%;
+
+}
+
+#pocetakAutora{
+    margin-top:90px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+
+    width:30%;
+    background-color: white;
+}
+
+#pocetakOpisa{
+    margin-top:20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+
+    width:30%;
+    background-color: white;
+}
+
+q{
+    width:100%;
+    text-align: center;
+    background-color: black;
+}
+
+iframe{
+    display: block;
+    border-style: none;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #777;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+
+
+.popup .show {
+  visibility: visible;
+
+}
+
+
+.popup .hide {
+  visibility: hidden;
+
+}

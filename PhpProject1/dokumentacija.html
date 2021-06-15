@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dokumentacija</title>
+        <meta charset="utf-8">       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="naslov" content="Autor stranica">
+        <meta name="autor" content="Josip Prga">
+        <meta name="opis" content="Autorska stranica naše web stranice">
+        <meta name="kljucne_rijeci" content="autor, biografija, web">
+        <link href="CSS/jprga.css" type = "text/css" rel = "stylesheet"/>
+       
+        <script src='javascript/jprga.js' defer></script>
+    </head>
+    <body>
+        <header>
+         
+            <h1>Dokumentacija</h1> 
+            <a href="#"><img src="multimedija/ikona_pristupacnosti.png" id="ikonaPoc" alt="pristupanost" width="20" style="float:right"/></a>
+            <img src="multimedija/rss.png" alt="RSS" width="20" style="float:right"/>
+            <img src="multimedija/twitter.png" alt="twitter" width="20" style="float:right"/>
+            <img src="multimedija/instagram.png" alt="instgram" width="20" style="float:right" />
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.php">Početna</a></li>
+               
+              
+            </ul>
+        </nav>
+        <section id='prazniProstor'></section>
+        
+        <h2>Opis projektnog zadatka</h2>
+        <section id="pocetakOpisa">
+            <p><br> Web aplikacija na temu "Arhitektura". Web aplikaciji mogu pristupiti 4 različita tipa korisnika: admin, moderator, registrirani korisnik i neregistrirani korisnik.
+            Podaci se dobavljaju iz baze podataka postavljenoj na phpmyadmin-u. </p><br>
+            
+            
+        </section>
+        <h2>Opis projektnog rješenja:</h2>
+         <section id="pocetakOpisa">
+             <p>Web aplikacija je razvijena uz HTML, CSS, JavaScript, jQuery i PHP programske jezike. Baza podataka je postavljena na phpmyadmin</p>
+         </section>
+        
+        <h2>Navigacijski dijagram</h2>
+        <figure id="image-box">
+            <img src="multimedija/NavigacijskiDijagram.png" alt="ERA" style="width:1024px;height:850px; margin-left: 310px">
+        </figure>
+        <section id='prazniProstor2'></section>
+        
+        
+        
+        <h2>ERA</h2>
+        
+        
+        <figure id="image-box2">
+            <img src="multimedija/ERA-projekt.png" alt="ERA" style="width:1024px;height:850px; margin-left: 310px">
+        </figure>
+        
+        
+        <section id='prazniProstor2'></section> 
+        
+        
+        <h2>Popis i opis skripata, mapa mjesta</h2>
+        <section id="pocetakOpisa">
+            <p style="text-align: left">Mape:<br>CSS: mapa sa css datotekama<br>--jprga.css: orginalni css<br>--jprga_accesibility.css: css s crno-bijelom temom i uvecanim fontom<br>Pomocni:mapa s pomocnim skriptama
+                --BlokiranjeRacuna.php: php koristen za blokiranje logina<br>--BlokiranjeZahtjeva.php : php koristen za blokiranje zahtjeva<br> --PomocnaAjax.php : php koristen za preuzimanje podataka AJAX-om<br>
+                --tabliceNRK.php : php s zasebnim znamenitostima po gradu odabranom u pocetna.NRK<br> --zaboravljenaSifra.php : php za slanje maila za zaboravljenu sifru<br>
+                izvorne_datoteke:<br>--dnevnik.log : koristeno za spremanje podataka dnevnika<br>
+                javascript:mapa s js skriptama<br>--jprga.js : skripta s JavaScript jezikom<br>--jprga_jquery.js : skripta s jQuery<br>
+                multimedija: mapa s slikama<br>
+                obrasci: mapa s prijavom i registracijom<br>--prijava.php : php za prijavu u aplikaciju<br>--registracija.php : php za registraciju u sustav<br>
+                root: skripte izvan mapa<br>--administratorPS.php : adminov pocetni php<br>--baza.class.php : php koristen za interakciju s bazom<br>--dnevnik.class.php : php koristen za interakciju s dnevnikom<br>
+                --dokumentacija.html : html stranica s dokumentacijom<br>--galerija.php : php s slikama iz mape multimedija<br>--index.php : php koji sluzi za prosljeđivanje na odgovarajucu pocetnu<br>
+                --o_autoru.html : podaci o autoru aplikacije<br>--odjava.php : php za odjavu iz aplikacije<br>--pocetnaNRK.php : pocetna stranica za neregistrirane korisnike<br>
+                --pocetnaMod.php : pocetna za moderatore<br>--pocetnaRK.php : pocetna za registrirane korisnike<br>--sesija.class.php : php koristen za interakciju s sesijom</p><br>
+        
+        </section>
+        
+        
+        <h2>Popis i opis korištenih tehnologija i alata</h2>
+        <section id="pocetakOpisa">
+            <p><br>Apache Netbeans: text editor specijaliziran za web stranice/aplikacije<br>MySql Workbench: SQL alat za upravljanje bazom podataka<br>XAMPP: alat za kreiranje lokalnog servera<br>Firefox Developer: browser specijaliziran za development<br> </p><br>
+            
+            
+        </section>
+        
+        
+        <h2>Popis i opis korištenih vanjskih izvora</h2>
+        <section id="pocetakOpisa">
+            <p>Moodle Webdip: koristene skripte s predavanja </p>
+            
+            
+        </section>
+        
+        <h2>Opis zavrsenosti</h2>
+        <section id="pocetakOpisa">
+            <p>Zavrsenost projekta je 70%. Nedostaje interakcija s dnevnikom, htaccess, sigurnosne kopije, stranicenje, postavljanje materijala</p>  
+        </section>
+        
+        
+        <footer>
+
+            <a href="https://validator.w3.org/check?uri=http://barka.foi.hr/WebDiP/2020_projekti/WebDiP2020x073/dokumentacija.html"><img src="multimedija/HTML5.png" width="50" alt="HTML5"/></a>
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=http://barka.foi.hr/WebDiP/2020_projekti/WebDiP2020x073/CSS/jprga.css"><img src="multimedija/CSS3.png" width="50" alt="CSS3"/></a>           
+            <a href="o_autoru.html"><p>&copy; 2021 Josip Prga</p></a>
+            <a href="dokumentacija.html"><p>Dokumentacija</p></a>
+        </footer>
+    </body>
+</html>
